@@ -1,0 +1,119 @@
+* {
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+}
+body {
+  background-color: #0b0c2a !important;
+  height: 100%;
+  color: aliceblue!important;
+  font-weight: bolder!important;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  margin-top: 100px!important;
+}
+.hero {
+  display: relative;
+  top: 300px !important;
+}
+#navLink .nav-link {
+  position: relative;
+}
+#navLink .nav-link:hover {
+  color: greenyellow;
+}
+#navLink .nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 50%;
+  background-color: greenyellow;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+#navLink .nav-link:hover:hover::after {
+  opacity: 1;
+}
+nav .nav-link {
+  font-size: 20px;
+}
+.logo__text {
+  font-family: "Aclonica";
+}
+.hero__title{
+  color: aliceblue;
+  font-family: "Aclonica";
+}
+.reivew__title{
+  color: aliceblue;
+  font-family: "Aclonica";
+}
+.carousel-item img{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto;
+  filter: brightness(80%);
+}
+.carousel-caption{
+  background: rgba(0, 0, 0, 0.5);
+  width: 66%;
+  padding: 25px;
+}
+.carousel-caption p{
+  text-align: justify;
+}
+footer{
+  height: 200px!important;
+}
+.review__img-animeReview{
+  height: 200px ;
+  background-image: url(/img/img-review.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  border: 0.1rem solid rgba(255, 255, 250, 0.7);
+}
+.review__img-animeReview:hover{
+  transform: scale(1.2) rotate(5deg);
+}
+footer .jumbotron{
+  background-image: url(/img/home-img-footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 0;
+  height: auto;
+}
+.review__img-animePopular1{
+  height: 250px ;
+  background-image: url(/img/onepunchman.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  border: 0.1rem solid rgba(255, 255, 250, 0.7);
+}
+.review__img-animePopular1:hover{
+  transform: scale(1.2) rotate(5deg);
+}
+.review__img-animePopular2{
+  height: 250px ;
+  background-image: url(/img/dragonball.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  border: 0.1rem solid rgba(255, 255, 250, 0.7);
+}
+.review__img-animePopular2:hover{
+  transform: scale(1.2) rotate(5deg);
+}
